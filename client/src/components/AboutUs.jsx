@@ -15,13 +15,7 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+            DoctorOnCall is a telemedicine and healthcare service platform designed to connect patients with medical professionals for consultations and treatments, primarily through digital means such as mobile apps, websites, and online communication tools. This service is particularly beneficial for people who need medical advice but are unable to visit a physical clinic due to location, time constraints, or health-related concerns.
             </p>
           </div>
         </div>

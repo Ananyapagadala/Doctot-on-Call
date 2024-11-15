@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="hero-content">
         <h1>
           Your Health, <br />
-          Our Responsibility
+          Our Priority
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          tenetur doloremque molestias repellat minus asperiores in aperiam
-          dolor, quaerat praesentium.
+        DoctorOnCall offers convenient and reliable online healthcare services, connecting you with expert doctors 
+        for virtual consultations, prescriptions, and health management. Your well-being is our responsibility, 
+        and we're here to ensure you get the care you need, wherever you are.
         </p>
       </div>
       <div className="hero-img">

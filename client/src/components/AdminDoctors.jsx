@@ -72,7 +72,7 @@ const AdminDoctors = () => {
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
-                    <th>Mobile No.</th>
+                    {/* <th>Mobile No.</th> */}
                     <th>Experience</th>
                     <th>Specialization</th>
                     <th>Fees</th>
@@ -94,7 +94,7 @@ const AdminDoctors = () => {
                         <td>{ele?.userId?.firstname}</td>
                         <td>{ele?.userId?.lastname}</td>
                         <td>{ele?.userId?.email}</td>
-                        <td>{ele?.userId?.mobile}</td>
+                        {/* <td>{ele?.userId?.mobile}</td> */}
                         <td>{ele?.experience}</td>
                         <td>{ele?.specialization}</td>
                         <td>{ele?.fees}</td>

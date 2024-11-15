@@ -12,7 +12,7 @@
     />
     <meta
       name="title"
-      content="HealthBooker"
+      content="Doctor On Call"
     />
     <meta
       name="description"
@@ -28,7 +28,7 @@
     />
     <meta
       name="author"
-      content="Dunna Avinash"
+      content="SAPS"
     />
     <meta
       name="robots"
@@ -50,7 +50,7 @@
     />
     <meta
       property="og:title"
-      content="HealthBooker"
+      content="Doctor On Call"
     />
     <meta
       property="og:description"
@@ -72,7 +72,7 @@
     />
     <meta
       property="twitter:title"
-      content="HealthBooker"
+      content="Doctor On Call"
     />
     <meta
       property="twitter:description"
@@ -103,7 +103,20 @@
       rel="manifest"
       href="/site.webmanifest"
     />
-    <title>HealthBooker</title>
+    <title>Doctor On Call</title>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "55c2960d-3dd4-4708-90b8-da2053e3e7c6", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "b190ce30-d95f-4bef-bc56-02875d4038f8", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

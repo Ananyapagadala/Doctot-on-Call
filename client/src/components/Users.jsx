@@ -69,9 +69,9 @@ const Users = () => {
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
-                    <th>Mobile No.</th>
+                    {/* <th>Mobile No.</th>
                     <th>Age</th>
-                    <th>Gender</th>
+                    <th>Gender</th> */}
                     <th>Is Doctor</th>
                     <th>Remove</th>
                   </tr>
@@ -91,9 +91,9 @@ const Users = () => {
                         <td>{ele?.firstname}</td>
                         <td>{ele?.lastname}</td>
                         <td>{ele?.email}</td>
-                        <td>{ele?.mobile}</td>
+                        {/* <td>{ele?.mobile}</td>
                         <td>{ele?.age}</td>
-                        <td>{ele?.gender}</td>
+                        <td>{ele?.gender}</td> */}
                         <td>{ele?.isDoctor ? "Yes" : "No"}</td>
                         <td className="select">
                           <button
